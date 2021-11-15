@@ -84,14 +84,18 @@ if __name__ == "__main__":
 
     original_text = get_text('original.txt')
     text = original_text.upper()
+    print('Оригинальный текст')
     print(text)
     print('\n'*4)
     result = caeser_cipher(text, 3)
     print('\n'*4)
+    print('Шифр Цезаря')
     print(result)
     m = get_monogram(result)
     print('\n'*4)
+    print('Монограммы')
     print(many_lines(15, m))
     print('\n'*4)
+    print('Биграммы')
     print(get_bigram(result, text))
 
