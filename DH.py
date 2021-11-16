@@ -29,7 +29,7 @@ class DH():
             decrypted_message += chr(ord(c) - key)
         return decrypted_message
 
-message = 'This is the Diffie-Hellman encryption algorithm '
+message = 'Berlin is the capital of great Germany '
 alice_public = 197
 alice_private = 199
 bob_public = 151
