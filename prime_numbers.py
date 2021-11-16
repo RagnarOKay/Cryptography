@@ -1,4 +1,4 @@
-from itertools import islice
+
 
 def gen_prime(n):
     primes = [2]
