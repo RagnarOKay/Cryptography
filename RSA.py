@@ -48,7 +48,6 @@ def num_d():
     i = True
     z = 0
     right_d = 0
-
     while i:
         d = prime_numbers[z]
         da = o_e * d % a == 1

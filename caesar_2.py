@@ -1,4 +1,3 @@
-
 import re
 from itertools import islice
 from collections import Counter
@@ -98,4 +97,3 @@ if __name__ == "__main__":
     print('\n'*4)
     print('Биграммы')
     print(get_bigram(result, text))
-
